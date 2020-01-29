@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/TestsDemoTestsUnitaires/TestsDemoTestsUnitaires.csproj": {}
+  },
+  "projects": {
+    "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/DemoTestsUnitaires.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/DemoTestsUnitaires.csproj",
+        "projectName": "DemoTestsUnitaires",
+        "projectPath": "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/DemoTestsUnitaires.csproj",
+        "packagesPath": "/Users/pfl/.nuget/packages/",
+        "outputPath": "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/pfl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/TestsDemoTestsUnitaires/TestsDemoTestsUnitaires.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/TestsDemoTestsUnitaires/TestsDemoTestsUnitaires.csproj",
+        "projectName": "TestsDemoTestsUnitaires",
+        "projectPath": "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/TestsDemoTestsUnitaires/TestsDemoTestsUnitaires.csproj",
+        "packagesPath": "/Users/pfl/.nuget/packages/",
+        "outputPath": "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/TestsDemoTestsUnitaires/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/pfl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/DemoTestsUnitaires.csproj": {
+                "projectPath": "/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/DemoTestsUnitaires.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

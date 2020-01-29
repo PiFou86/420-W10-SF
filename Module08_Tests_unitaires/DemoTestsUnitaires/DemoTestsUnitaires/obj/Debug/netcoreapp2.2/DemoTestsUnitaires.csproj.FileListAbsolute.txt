@@ -1,0 +1,10 @@
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/bin/Debug/netcoreapp2.2/DemoTestsUnitaires.deps.json
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/bin/Debug/netcoreapp2.2/DemoTestsUnitaires.runtimeconfig.json
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/bin/Debug/netcoreapp2.2/DemoTestsUnitaires.runtimeconfig.dev.json
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/bin/Debug/netcoreapp2.2/DemoTestsUnitaires.dll
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/bin/Debug/netcoreapp2.2/DemoTestsUnitaires.pdb
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/obj/Debug/netcoreapp2.2/DemoTestsUnitaires.csprojAssemblyReference.cache
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/obj/Debug/netcoreapp2.2/DemoTestsUnitaires.AssemblyInfoInputs.cache
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/obj/Debug/netcoreapp2.2/DemoTestsUnitaires.AssemblyInfo.cs
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/obj/Debug/netcoreapp2.2/DemoTestsUnitaires.dll
+/Users/pfl/OneDrive/Mac/Cégep/2019/Automne/420-W10-SF - Intro prog/Modules/08 - Tests unitaires/DemoTestsUnitaires/DemoTestsUnitaires/obj/Debug/netcoreapp2.2/DemoTestsUnitaires.pdb
