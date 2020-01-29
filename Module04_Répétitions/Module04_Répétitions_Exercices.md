@@ -29,6 +29,7 @@ Comment répéter une action ? Quelle est/sont les actions à répéter ? Quand 
 Que représente le carré d'un nombre ?
 </details>
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -47,6 +48,7 @@ tant que (nombre > 0) faire {
 ```
 
 </details>
+-->
 
 ## Exercice 2 - $n$ carrés des nombres
 
@@ -63,6 +65,7 @@ Demandez à l’utilisateur la quantité de nombres qu’il a à saisir. Ensuite
     Débutez par la boucle "pour". Cherchez à convertir le pour en tant que.
 </details>
 
+<!--
 <details>
     <summary>Proposition solution 1.</summary>
 
@@ -109,6 +112,7 @@ tant que (numeroNombre <= quantiteNombresATraiter) {
 ```
 
 </details>
+-->
 
 ## Exercice 3 - Total porte-monnaie
 
@@ -129,6 +133,7 @@ Entrez la valeur d’une pièce en dollar (0 pour arrêter) : 0
 La valeur totale est : 1.15 $.
 ```
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -153,11 +158,13 @@ tant que (valeurPiece > 0) {
 ```
 
 </details>
+-->
 
 ## Exercice 4 - Table des carrés et cubes
 
 Écrire un algorithme et le code qui calcule et affiche la table des carrés et des cubes pour les nombres de 1 à 20.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -174,11 +181,13 @@ pour entier nombre de 1 à 20 {
 ```
 
 </details>
+-->
 
 ## Exercice 5 - Somme d'une suite d'entiers
 
 Écrire un algorithme et le code pour calculer et afficher la somme de la suite de nombres de 1 à 100.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -193,11 +202,13 @@ pour entier nombre de 1 à 100 {
 ```
 
 </details>
+-->
 
 ## Exercice 6 - Somme d'une suite de nombres pairs
 
 Écrire un algorithme et le code pour calculer et afficher la somme de la suite de nombres des nombres pairs de 0 à 12.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -212,11 +223,13 @@ pour entier nombrePair de 2 à 12 évolution +2 {
 ```
 
 </details>
+-->
 
 ## Exercice 7 - Somme d'une suite de nombres
 
 Écrire un algorithme et le code pour calculer et afficher la somme de la suite dont les valeurs de départ et d’arrêt sont fixées par l’utilisateur (en lecture).
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -239,3 +252,4 @@ pour entier nombre de valeurDepart à valeurArret {
 ```
 
 </details>
+-->
