@@ -11,6 +11,7 @@ N'oubliez pas d'ajouter les préconditions !
 
 Écrivez la fonction "Saluer" qui affiche un message de salutation. La fonction doit prendre le nom de la personne à saluer en paramètres.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -19,6 +20,7 @@ aucun saluer(chaine p_nom) {
     écrireNL("Bonjour " + p_nom);
 }
 ```
+-->
 
 </details>
 
@@ -27,6 +29,7 @@ aucun saluer(chaine p_nom) {
 1. Écrivez la fonction "CalculerMaximum" qui calcule le maximum de deux entiers passés en paramètres.
 2. Écrivez la fonction "CalculerMaximum" qui calcule le maximum de trois entiers passés en paramètres en utilisant la précédente fonction (les deux fonctions sont considérées comme différentes car elles n'ont pas les mêmes paramètres).
 
+<!--
 <details>
     <summary>Proposition solution 2.1</summary>
 
@@ -54,13 +57,14 @@ entier calculerMaximum(entier p_valeur1, entier p_valeur2, entier p_valeur3) {
 ```
 
 </details>
-
+-->
 
 ### Exercice 3 - Lectures de valeurs
 
 1. Écrivez une fonction qui lit une note réel comprise entre 0 et 100 inclus et la renvoie.
 2. Écrivez une fonction qui lit une collection de notes et la renvoie. La fonction reçoit la quantité de notes à saisir en paramètres.
 
+<!--
 <details>
     <summary>Proposition solution 3.1</summary>
 
@@ -95,12 +99,14 @@ réel[] saisirNotes(entier p_quantiteNote) {
 ```
 
 </details>
+-->
 
 ### Exercice 4 - Calculs sur des collections
 
 1. Écrivez une fonction qui calcule la somme d’un tableau de réels passés en paramètres.
 2. Écrivez une fonction qui calcule la moyenne d’un tableau de réels passés en paramètres.
 
+<!--
 <details>
     <summary>Proposition solution 4.1</summary>
 
@@ -128,6 +134,7 @@ réel calculerMoyenne(réel[] p_valeurs) {
 ```
 
 </details>
+-->
 
 ### Exercice 5 - On orchestre le tout
 

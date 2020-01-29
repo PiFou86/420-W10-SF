@@ -15,13 +15,13 @@ Avec les données initiales :
 
 Évaluez les expressions suivantes :
 
-1. $x \land y$
-2. $y \lor x$
-3. $x  \lor z \lor y$
-4. $y \lor (x \land z)$
-5. $y \lor \lnot x$
-6. $\lnot x \land y$
-7. $(\lnot y \land \lnot x) \lor x$
+1. `x et y`
+2. `y ou x`
+3. `x  ou z ou y`
+4. `y ou (x et z)`
+5. `y ou non x`
+6. `non x et y`
+7. `(non y et non x) ou x`
 
 <details>
     <summary>Indice #1</summary>
@@ -43,13 +43,13 @@ Avec les données initiales :
 
 Évaluez les expressions suivantes :
 
-1. $(X > Y) \lor (Z > 1)$
-2. $(X / 2 >= Y) \land (Y == 5)$
-3. $\lnot(X > 10) \lor (Z > 1)$
-4. $(3 * Z * Y == X + Y) \land (X * 5 == Y * 10)$
-5. $\lnot( (10 * X - Y == 95) \land (X - Y == Z * 5) )$
-6. $(X \% 3 == Y \% 2) \land (Z \% 2 == 2)$
-7. $(X / 3 > 3) \lor (Y / 3 > 1)$
+1. `(X > Y) ou (Z > 1)`
+2. `(X / 2 >= Y) et (Y == 5)`
+3. `non(X > 10) ou (Z > 1)`
+4. `(3 * Z * Y == X + Y) et (X * 5 == Y * 10)`
+5. `non( (10 * X - Y == 95) et (X - Y == Z * 5) )`
+6. `(X % 3 == Y \% 2) et (Z % 2 == 2)`
+7. `(X / 3 > 3) ou (Y / 3 > 1)`
 
 <details>
     <summary>Indice #1</summary>

@@ -6,6 +6,7 @@
 
 Écrire l’algorithme en pseudo code qui demande deux nombres et une chaine de caractères. Si la chaine est « s », le programme doit afficher la somme des nombres. Si c’est « p », ce sera le produit. Si la chaine n’est ni « s » ni « p », alors affichez un message d’erreur.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -40,6 +41,7 @@ selon (operateur) {
 ```
 
 </details>
+-->
 
 ### Exercice 2 - Coût livraison
 
@@ -53,6 +55,7 @@ selon (operateur) {
 Vous devez demander à l’utilisateur le total de la commande et lui afficher ensuite le coût de la livraison.
 Si jamais il vous donne une valeur négative ou même zéro, affichez-lui un message d’erreur et terminez le programme.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -79,11 +82,13 @@ si (totalFacture <= 0) {
 ```
 
 </details>
+-->
 
 ### Exercice 3 - Jour de la semaine
 
 Écrire l’algorithme qui lit un nombre compris entre 1 et 7 et affiche le nom du jour correspondant. La semaine débute le lundi (1).
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -117,6 +122,7 @@ selon (jourDeLaSemaine) {
 ```
 
 </details>
+-->
 
 ### Exercice 4 - Calcul de paie
 
@@ -137,6 +143,7 @@ selon (jourDeLaSemaine) {
 
 Vous devez afficher le numéro d’employé, le salaire brut, l’impôt fédéral, l’impôt provincial, les retenues diverses, la cotisation syndicale et enfin le salaire net.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -209,6 +216,7 @@ Vous devez afficher le numéro d’employé, le salaire brut, l’impôt fédér
 ```
 
 </details>
+-->
 
 ## Des répétitions un peu plus complexes
 
@@ -220,6 +228,7 @@ Concevoir l’algorithme pseudo code qui lit la note finale de chaque étudiant 
 2. le nombre d’étudiants est variable, mais connu de l’utilisateur.
 3. le nombre d’étudiants est variable et inconnu de l’utilisateur. L'utlisateur tape une valeur négative pour arrêter la saisie
 
+<!--
 <details>
     <summary>Proposition solution 1.</summary>
 
@@ -329,12 +338,15 @@ pourcentageEchecs = quantiteEchecs * 100.0 / quantiteEtudiants;
 ```
 
 </details>
+-->
+
 ### Exercice 2 - Notes d’examens
 
 Écrivez un algorithme qui lit au clavier le nombre d'élèves d'une classe (>0) et ensuite le nombre d'examens (>0).
 Pour chaque étudiant, l'algorithme demande tous les résultats d'examen (note de 0 à 100) et affiche la moyenne de l'étudiant (chaque examen a le même poids).
 Finalement l'algorithme affiche la moyenne générale de la classe (la moyenne des moyennes). Chacune des moyennes calculées est affichée sur une ligne différente.
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -377,6 +389,7 @@ moyenneEtudiants = sommeMoyennesEtudiants / quantiteEtudiants;
 ```
 
 </details>
+-->
 
 ### Exercice 3 - Ligne d’étoiles
 
@@ -386,6 +399,7 @@ moyenneEtudiants = sommeMoyennesEtudiants / quantiteEtudiants;
 *****↵
 ```
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -402,6 +416,7 @@ pour entier numeroEtoile de 1 à largeurLigne {
 ```
 
 </details>
+-->
 
 ### Exercice 4 - Rectangle plein d’étoiles
 
@@ -414,6 +429,7 @@ Exemple : pour hauteur = 3 et largeur = 5, nous devons obtenir :
 *****↵
 ```
 
+<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -435,6 +451,7 @@ pour entier numeroLigne de 1 à hauteurRectangle {
 ```
 
 </details>
+-->
 
 ### Exercice 5 - Carré de chiffres
 
@@ -480,6 +497,10 @@ Avec 5 :
 00001↵
 ```
 
+<!--
+<details>
+    <summary>Proposition solution</summary>
+
 ``` csharp
 entier valeurDepart = 0;
 entier nombreLignes = 0;
@@ -507,6 +528,9 @@ pour entier numeroLigne de 1 à nombreLignes {
 }
 ```
 
+</details>
+-->
+
 ### Exercice 6 - Rectangle vide d’étoiles
 
 Écrire un algorithme qui lit deux entiers positifs : une hauteur et une largeur et qui dessine un rectangle vide bordé d’étoiles.
@@ -517,6 +541,10 @@ Exemple : pour hauteur = 3 et largeur = 5, nous devons obtenir :
 *˽˽˽*↵
 *****↵
 ```
+
+<!--
+<details>
+    <summary>Proposition solution</summary>
 
 ``` csharp
 entier hauteurRectangleVide = 0;
@@ -551,6 +579,9 @@ pour entier numeroEtoile de 1 à largeurRectangleVide {
   écrire("*");
 }
 ```
+
+</details>
+-->
 
 ### Exercice 7 - Avez-vous bien fait cela ?
 

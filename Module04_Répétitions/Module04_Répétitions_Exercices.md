@@ -50,7 +50,7 @@ tant que (nombre > 0) faire {
 </details>
 -->
 
-## Exercice 2 - $n$ carrés des nombres
+## Exercice 2 - `n` carrés des nombres
 
 Demandez à l’utilisateur la quantité de nombres qu’il a à saisir. Ensuite, vous lui demanderez de saisir chacun de ces nombres et vous l’afficherez au carré.
 
