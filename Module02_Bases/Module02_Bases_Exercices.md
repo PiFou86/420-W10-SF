@@ -166,7 +166,7 @@ entier resultat = 0;
 nombreB = lire();
 nombreB = nombreB + 1;
 nombreA = nombreA + nombreB;
-resultat = (nombreA * (nombreA + nombreB) % 5;
+resultat = (nombreA * (nombreA + nombreB)) % 5;
 
 écrire(resultat);
 ```
