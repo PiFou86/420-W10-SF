@@ -48,7 +48,7 @@ Avec les données initiales :
 3. `non(X > 10) ou (Z > 1)`
 4. `(3 * Z * Y == X + Y) et (X * 5 == Y * 10)`
 5. `non( (10 * X - Y == 95) et (X - Y == Z * 5) )`
-6. `(X % 3 == Y \% 2) et (Z % 2 == 2)`
+6. `(X % 3 == Y % 2) et (Z % 2 == 2)`
 7. `(X / 3 > 3) ou (Y / 3 > 1)`
 
 <details>
