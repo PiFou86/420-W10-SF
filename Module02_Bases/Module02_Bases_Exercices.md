@@ -268,3 +268,26 @@ reel2 = reelTemporaire;
 ```
 </details>
 -->
+
+## Exercices supplémentaires
+
+### Exercice 1 - Conversions de masse
+
+Écrire un programme qui saisit une valeur en onces et le convertit en livres et onces. (une livre = 16 onces).
+
+Exemple :
+
+- si l'utilisateur saisit 8, le programme affiche 0 livre(s) et 8 once(s).
+- si l'utilisateur saisit 42, le programme affiche 2 livre(s) et 10 once(s).
+
+### Exercice 2 - Temps de communication
+
+Écrire un programme qui saisit une distance en km et évalue le temps de décalage suite à une transmission à très longue distance.
+
+La communication visée utilise les ondes électromagnétiques dans l'air et le vide. Ces ondes voyagent à la vitesse de la lumière.
+
+La distance entre la terre et la lune est d'environ 384 400 km (Google). Celle entre la terre et mars varie d'environ 55,7 à 401,3 millions de kilomètres (Wikipédia).
+
+### Exercice 3 - Calculatrice
+
+Écrire un programme qui saisit deux nombres réels et affiche l'addition, la soustraction, la division et la multiplication.
