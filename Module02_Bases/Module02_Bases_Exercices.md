@@ -75,7 +75,6 @@ Avec les données initiales :
     Avez-vous besoin d'une variable pour stocker de l'information ?
 </details>
 
-<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -88,7 +87,6 @@ nomUtilisateur = lire();
 écrireNL("Bonjour " + nomUtilisateur);
 ```
 </details>
--->
 
 ## Exercice 4 - Dé
 
@@ -99,7 +97,6 @@ nomUtilisateur = lire();
     Regardez votre cours sur la génération des nombres aléatoires. Vous faut-il une variable ?
 </details>
 
-<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -109,7 +106,6 @@ entier nombreTire = genererNombre(1, 7);
 écrireNL("Le nombre choisi est " + nombreTire.VersChaine());
 ```
 </details>
--->
 
 ## Exercice 5 - Divisions
 
@@ -130,7 +126,6 @@ Posez-vous les questions suivantes :
 Relisez la partie du cours spécifique aux opérateurs sur les entiers.
 </details>
 
-<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -153,7 +148,6 @@ reste = dividende % diviseur;
 ```
 
 </details>
--->
 
 ## Exercice 6 – Algorithme mystère
 
@@ -177,7 +171,6 @@ Qu’est-ce que cet algorithme écrit si le nombre 2 est lu ?
 
 Écrivez un algorithme qui lit 3 réels au clavier et qui affiche à l'écran la moyenne.
 
-<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -202,7 +195,6 @@ moyenne = (valeur1 + valeur2 + valeur3) / 3.0;
 ```
 
 </details>
--->
 
 ## Exercice 8 – Algorithme mystère 2
 
@@ -239,7 +231,6 @@ Qu’arrive-t-il si le programme lit le nombre ```10``` au clavier ? Pourquoi ?
   Est-ce qu'une troisième variable pourrait vous servir ?  
 </details>
 
-<!--
 <details>
     <summary>Proposition solution</summary>
     
@@ -267,7 +258,6 @@ reel2 = reelTemporaire;
 
 ```
 </details>
--->
 
 ## Exercices supplémentaires
 
