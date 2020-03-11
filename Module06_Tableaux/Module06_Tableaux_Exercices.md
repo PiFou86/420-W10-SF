@@ -152,29 +152,34 @@ moyenneGeneraleEtudiants = sommeMoyennesEtudiants / moyennesEtudiants.Capacité;
 
 </details>
 
-## Exercice 5 - Suite de Fibonnaci
+## Exercice 5 - Suite de Fibonacci
 
 Écrivez un algorithme qui :
 
-- calcule la suite de Fibonnaci dans un tableau de 20 entiers (utilisez une structure répétition).
-- affiche la suite de Fibonnaci sur une même ligne (les entiers sont séparés par des '-').
+- calcule la suite de Fibonacci dans un tableau de 20 entiers (utilisez une structure répétition).
+- affiche la suite de Fibonacci sur une même ligne (les entiers sont séparés par des '-').
 0-1-1-2-3-5-8-13-21...
+
+La suite de Fibonacci évolue de la façon suivante :
+ - fibonacci[0] = 0
+ - fibonacci[1] = 1
+ - fibonacci[n] = fibonacci[n - 1] + fibonacci[n - 2]
 
 <details>
     <summary>Proposition solution</summary>
 
 ``` csharp
-entier[] suiteFibonnaci = créer entier[20];
+entier[] suiteFibonacci = créer entier[20];
 
 suiteFibonnaci[0] = 0;
 suiteFibonnaci[1] = 1;
-pour entier numeroValeurSuiteFibonaci de 2 à suiteFibonnaci.Capacité - 1 {
-    suiteFibonnaci[numeroValeurSuiteFibonaci] = suiteFibonnaci[numeroValeurSuiteFibonaci - 2] + suiteFibonnaci[numeroValeurSuiteFibonaci - 1];
+pour entier numeroValeurSuiteFibonaci de 2 à suiteFibonacci.Capacité - 1 {
+    suiteFibonacci[numeroValeurSuiteFibonaci] = suiteFibonacci[numeroValeurSuiteFibonaci - 2] + suiteFibonacci[numeroValeurSuiteFibonaci - 1];
 }
 
 écrire(suiteFibonnaci[0]);
-pour entier numeroValeurSuiteFibonaci de 1 à suiteFibonnaci.Capacité - 1 {
-    écrire("-" + suiteFibonnaci[numeroValeurSuiteFibonaci].VersChaine());
+pour entier numeroValeurSuiteFibonaci de 1 à suiteFibonacci.Capacité - 1 {
+    écrire("-" + suiteFibonacci[numeroValeurSuiteFibonaci].VersChaine());
 }
 ```
 
