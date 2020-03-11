@@ -19,7 +19,7 @@ pour entier n de 0 à valeurs.Capacité - 1 {
 
 écrire(valeurs[0]);
 pour entier indiceValeur de 1 à valeurs.Capacité - 1 {
-    écrire(" " + valeurs[0].VersChaine());
+    écrire(" " + valeurs[indiceValeur].VersChaine());
 }
 ```
 
