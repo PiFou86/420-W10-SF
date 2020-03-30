@@ -174,7 +174,7 @@ entier[] suiteFibonacci = créer entier[20];
 suiteFibonnaci[0] = 0;
 suiteFibonnaci[1] = 1;
 pour entier numeroValeurSuiteFibonaci de 2 à suiteFibonacci.Capacité - 1 {
-    suiteFibonacci[numeroValeurSuiteFibonaci] = suiteFibonacci[numeroValeurSuiteFibonaci - 2] + suiteFibonacci[numeroValeurSuiteFibonaci - 1];
+    suiteFibonacci[numeroValeurSuiteFibonaci] = suiteFibonacci[numeroValeurSuiteFibonaci - 1] + suiteFibonacci[numeroValeurSuiteFibonaci - 2];
 }
 
 écrire(suiteFibonnaci[0]);
@@ -271,6 +271,11 @@ pour entier indiceValeur de 0 à valeurs.Capacité - 1 - n {
 
 pour entier indiceValeur de valeurs.Capacité - n à valeurs.Capacité - 1 {
     valeurs[indiceValeur] = 0;
+}
+
+écrireNL(valeurs[0]);
+pour entier indiceValeur de 1 à valeurs.Capacité - 1 {
+    écrire(", " + valeurs[indiceValeur].VersChaine());
 }
 ```
 
