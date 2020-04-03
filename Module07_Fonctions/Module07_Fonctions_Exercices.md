@@ -40,6 +40,7 @@ entier calculerMaximum(entier p_valeur1, entier p_valeur2) {
 
     renvoyer valeurMaximum;
 }
+```
 
 </details>
 
