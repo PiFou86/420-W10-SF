@@ -103,8 +103,8 @@ réel[] saisirNotes(entier p_quantiteNote) {
 
 ### Exercice 4 - Calculs sur des collections
 
-1. Écrivez une fonction qui calcule la somme d’un tableau de réels passés en paramètres.
-2. Écrivez une fonction qui calcule la moyenne d’un tableau de réels passés en paramètres.
+1. Écrivez une fonction qui calcule la somme d’un tableau de réels passé en paramètres.
+2. Écrivez une fonction qui calcule la moyenne d’un tableau de réels passé en paramètres.
 
 <!--
 <details>
