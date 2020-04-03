@@ -11,7 +11,6 @@ N'oubliez pas d'ajouter les préconditions !
 
 Écrivez la fonction "Saluer" qui affiche un message de salutation. La fonction doit prendre le nom de la personne à saluer en paramètres.
 
-<!--
 <details>
     <summary>Proposition solution</summary>
 
@@ -20,16 +19,14 @@ aucun saluer(chaine p_nom) {
     écrireNL("Bonjour " + p_nom);
 }
 ```
--->
 
 </details>
 
 ### Exercice 2 - Maximun de valeurs
 
-1. Écrivez la fonction "CalculerMaximum" qui calcule le maximum de deux entiers passés en paramètres.
-2. Écrivez la fonction "CalculerMaximum" qui calcule le maximum de trois entiers passés en paramètres en utilisant la précédente fonction (les deux fonctions sont considérées comme différentes car elles n'ont pas les mêmes paramètres).
+1. Écrivez la fonction "CalculerMaximum" qui calcule et renvoie le maximum de deux entiers passés en paramètres.
+2. Écrivez la fonction "CalculerMaximum" qui calcule et renvoie le maximum de trois entiers passés en paramètres en utilisant la précédente fonction (les deux fonctions sont considérées comme différentes car elles n'ont pas les mêmes paramètres).
 
-<!--
 <details>
     <summary>Proposition solution 2.1</summary>
 
@@ -37,13 +34,12 @@ aucun saluer(chaine p_nom) {
 entier calculerMaximum(entier p_valeur1, entier p_valeur2) {
     entier valeurMaximum = p_valeur1;
 
-    si (valeurMaximum < p_valeur2) {
+    si (p_valeur2 > valeurMaximum) {
         valeurMaximum = p_valeur2;
     }
 
     renvoyer valeurMaximum;
 }
-```
 
 </details>
 
@@ -52,19 +48,18 @@ entier calculerMaximum(entier p_valeur1, entier p_valeur2) {
 
 ``` csharp
 entier calculerMaximum(entier p_valeur1, entier p_valeur2, entier p_valeur3) {
-    renvoyer CalculerMaximum(CalculerMaximum(p_valeur1, p_valeur2), p_valeur3);
+    renvoyer calculerMaximum(calculerMaximum(p_valeur1, p_valeur2), p_valeur3);
 }
 ```
 
 </details>
--->
+
 
 ### Exercice 3 - Lectures de valeurs
 
 1. Écrivez une fonction qui lit une note réel comprise entre 0 et 100 inclus et la renvoie.
 2. Écrivez une fonction qui lit une collection de notes et la renvoie. La fonction reçoit la quantité de notes à saisir en paramètres.
 
-<!--
 <details>
     <summary>Proposition solution 3.1</summary>
 
@@ -87,8 +82,10 @@ réel saisirNote() {
     <summary>Proposition solution 3.2</summary>
 
 ``` csharp
-réel[] saisirNotes(entier p_quantiteNote) {
-    réel[] notes = créer réel[p_quantiteNote];
+réel[] saisirNotes(entier p_quantiteNotes) {
+    // Préconditions
+    // 1. p_quantiteNotes doit être >= 0
+    réel[] notes = créer réel[p_quantiteNotes];
 
     pour entier numeroNote de 0 à notes.Capacité - 1 {
         notes[numeroNote] = saisirNote();
@@ -99,19 +96,19 @@ réel[] saisirNotes(entier p_quantiteNote) {
 ```
 
 </details>
--->
 
 ### Exercice 4 - Calculs sur des collections
 
 1. Écrivez une fonction qui calcule la somme d’un tableau de réels passé en paramètres.
 2. Écrivez une fonction qui calcule la moyenne d’un tableau de réels passé en paramètres.
 
-<!--
 <details>
     <summary>Proposition solution 4.1</summary>
 
 ``` csharp
 réel calculerSomme(réel[] p_valeurs) {
+    // Préconditions
+    // 1. p_valeurs ne doit pas être null
     réel somme = 0.0;
 
     pour entier indiceValeur de 0 à p_valeurs.Capacité - 1 {
@@ -129,12 +126,14 @@ réel calculerSomme(réel[] p_valeurs) {
 
 ``` csharp
 réel calculerMoyenne(réel[] p_valeurs) {
+    // Préconditions
+    // 1. p_valeurs ne doit pas être null
+    // 2. p_valeurs doit avoir au moins une valeur
     renvoyer calculerSomme(p_valeurs) / p_valeurs.Capacité;
 }
 ```
 
 </details>
--->
 
 ### Exercice 5 - On orchestre le tout
 
