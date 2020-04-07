@@ -55,7 +55,6 @@ entier calculerMaximum(entier p_valeur1, entier p_valeur2, entier p_valeur3) {
 
 </details>
 
-
 ### Exercice 3 - Lectures de valeurs
 
 1. Écrivez une fonction qui lit une note réel comprise entre 0 et 100 inclus et la renvoie.
@@ -143,6 +142,39 @@ réel calculerMoyenne(réel[] p_valeurs) {
 1. Lit l’ensemble des notes et les places dans un tableau
 2. Calcule la moyenne des notes
 3. Affiche cette moyenne
+
+<details>
+    <summary>Proposition solution</summary>
+
+``` csharp
+entier saisirQuantiteNotes() {
+    entier quantiteNotes = 0;
+
+    faire {
+        écrire("Veuillez saisir une quantité de notes >= 0 : ");
+        quantiteNotes = lire();
+    } tant que (quantiteNotes <= 0)
+
+    renvoyer quantiteNotes;
+}
+
+aucun afficherMoyenne(réel p_moyenne) {
+    écrireNL("La moyenne des notes est : " + p_moyenne.VersChaine());
+}
+
+aucun saisirNotesEtAfficherMoyenne() {
+    entier quantiteNotes = 0;
+    réel[] notes = null;
+
+    quantiteNotes = saisirQuantiteNotes();
+    notes = saisirNotes(quantiteNotes);
+    moyenne = calculerMoyenne(notes);
+
+    afficherMoyenne(moyenne);
+}
+```
+
+</details>
 
 ## Revisitons la paie
 
