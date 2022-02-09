@@ -348,33 +348,59 @@ réel moyenneEtudiant = 0.0;
 réel sommeMoyennesEtudiants = 0.0;
 réel moyenneEtudiants = 0.0;
 
-écrire("Veuillez entrer la quantité d'étudiants svp : ");
-quantiteEtudiants = lire();
-écrire("Veuillez entrer le nombre d'examens par étudiant : ");
-quantiteNotesParEtudiant = lire();
-
+faire {
+    écrire("Veuillez entrer la quantité d'étudiants svp : ");
+    
+    chaine quantiteEtudiantsChaine = "";
+    quantiteEtudiantsChaine = lire();
+    
+    Conversion de quantiteEtudiantsChaine vers quantiteEtudiants;
+    si conversion est mauvaise{
+        quantiteEtudiants = 0;
+    }
+} tant que (quantiteEtudiants < 1);
+                                   
+faire {
+    écrire("Veuillez entrer le nombre d'examens par étudiant : ");
+                                   
+    chaine quantiteNotesParEtudiantChaine = "";
+    quantiteNotesParEtudiantChaine = lire();
+                                   
+    conversion de quantiteNotesParEtudiantChaine vers quantiteNotesParEtudiant;
+    si conversion est mauvaise {
+        quantiteNotesParEtudiant = 0;
+    }
+} tant que (quantiteNotesParEtudiant < 1);
+                                   
 pour entier numeroEtudiant de 1 à quantiteEtudiants {
-  sommeNotesEtudiant = 0.0;
+    sommeNotesEtudiant = 0.0;
 
-  écrire("Nous allons traiter l'étudiant " + numeroEtudiant.VersChaine());
-  pour entier numeroExamen de 1 à quantiteNotesParEtudiant {
-    faire {
-      écrire("Veuillez entrer la note finale de l'examen " + numeroExamen.VersChaine() + " de l'étudiant " + numeroEtudiant.VersChaine() + " : ");
-      noteFinale = lire();
-    } tant que (noteFinale < 0 ou noteFinale > 100);
+    écrire("Nous allons traiter l'étudiant " + numeroEtudiant);
+    pour entier numeroExamen de 1 à quantiteNotesParEtudiant {
+        faire {
+            écrire("Veuillez entrer la note finale de l'examen " + numeroExamen + " de l'étudiant " + numeroEtudiant + " : ");
+    
+            chaine noteFinaleChaine = "";
+            noteFinaleChaine = lire();
+    
+            conversion de noteFinaleChaine vers noteFinale;
+            si conversion est mauvaise {
+                noteFinale = 0;
+            }
+        } tant que (noteFinale < 0 ou noteFinale > 100);
 
-    sommeNotesEtudiant = sommeNotesEtudiant + noteFinale;
-  }
+        sommeNotesEtudiant = sommeNotesEtudiant + noteFinale;
+    }
 
-  moyenneEtudiant = sommeNotesEtudiant / quantiteNotesParEtudiant;
+    moyenneEtudiant = sommeNotesEtudiant / quantiteNotesParEtudiant;
 
-  sommeMoyennesEtudiants = sommeMoyennesEtudiants + moyenneEtudiant;
+    sommeMoyennesEtudiants = sommeMoyennesEtudiants + moyenneEtudiant;
 
-  écrire("L'étudiant " + numeroEtudiant.VersChaine() + " a une moyenne de : " + moyenneEtudiant.VersChaine())
+    écrire("L'étudiant " + numeroEtudiant + " a une moyenne de : " + moyenneEtudiant)
 }
 
 moyenneEtudiants = sommeMoyennesEtudiants / quantiteEtudiants;
-écrire("La moyenne des étudiants est : " + moyenneEtudiants.VersChaine());
+écrire("La moyenne des étudiants est : " + moyenneEtudiants);
 ```
 
 </details>
