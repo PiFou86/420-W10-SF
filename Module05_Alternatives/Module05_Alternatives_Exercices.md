@@ -348,11 +348,16 @@ réel moyenneEtudiant = 0.0;
 réel sommeMoyennesEtudiants = 0.0;
 réel moyenneEtudiants = 0.0;
 
-écrire("Veuillez entrer la quantité d'étudiants svp : ");
-quantiteEtudiants = lire();
-écrire("Veuillez entrer le nombre d'examens par étudiant : ");
-quantiteNotesParEtudiant = lire();
-
+faire {
+    écrire("Veuillez entrer la quantité d'étudiants svp : ");
+    quantiteEtudiants = lire();
+} tant que (quantiteEtudiants < 1);
+                                   
+faire {
+    écrire("Veuillez entrer le nombre d'examens par étudiant : ");
+    quantiteNotesParEtudiant = lire();
+} tant que (quantiteNotesParEtudiant < 1)
+                                   
 pour entier numeroEtudiant de 1 à quantiteEtudiants {
   sommeNotesEtudiant = 0.0;
 
